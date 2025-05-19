@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My personal website for IML254">
+  <meta name="author" content="Sufi Ayu Kirana Binti Sohaimi">
+  <link rel="stylesheet" href="style.css">
+</head>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #def4fe;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      color: #039adf;
+      margin: 30px 0;
+    }
+
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .gallery-box {
+      width: 2200px;
+      border: 3px solid #30aef3;
+      border-radius: 10px;
+      overflow: hidden;
+      background-color: #d7f0fd;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery-box:hover {
+      transform: scale(1.05);
+    }
+
+    .gallery-box img {
+      width: 100%;
+      height: 350px;
+      object-fit: cover;
+    }
+
+    .caption {
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="header">
+    <img src="images/banner.gif" alt="Banner" />
+  </div>
+
+  <div id="nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="education.html">Education</a>
+    <a href="family.html">Family</a>
+    <a href="hobbies.html">Hobbies</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <h1>🌟 My Gallery 🌟</h1>
+
+<div class="gallery-container"> 
+
+  <div class="gallery-box">
+    <video width="100%" height="300" style="object-fit: cover;" controls>
+      <source src="videos/cat.mp4" type="video/mp4">
+    </video>
+    <div class="caption">My cat during his visit at Bobulus cat's hotel in Bentong 🏨 </div>
+  </div>
+
+  <div class="gallery-box">
+    <img src="images/anje1.jpg" alt="My cat">
+    <div class="caption">My adorable cat 🐱</div>
+  </div>
+
+  <div class="gallery-box">
+    <img src="images/award.jpg" alt="award day">
+    <div class="caption">Receiving Meritorious  awards and together with my fellow friends acheiving our goals. 🎉</div>
+  </div>
+
+  <div class="gallery-box">
+    <video width="100%" height="500" style="auto: cover;" controls>
+      <source src="videos/lost.mp4" type="video/mp4">
+    </video>
+    <div class="caption">Trying to find where is cat food but end up getting lost 🍃</div>
+  </div>
+
+  <div class="gallery-box">
+    <img src="images/emcee.jpg" alt="as an emcee">
+    <div class="caption">Handling school event as an emcee🎤👩‍💼</div>
+  </div>
+
+  <div class="gallery-box">
+    <img src="images/cutie.jpg" alt="baby me">
+    <div class="caption">me as a baby 🍼</div>
+  </div>
+
+</div> 
+
+
+  <div id="footer">
+    <p>&copy; 2025 Sufi Ayu Kirana | Last updated: May 2025</p>
+  </div>
+
+</body>
+</html>
