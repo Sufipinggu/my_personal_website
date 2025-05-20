@@ -108,7 +108,7 @@ tr:nth-child(even) {
   background-color: #f2faff;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
   #nav a {
     display: block;
@@ -160,4 +160,3 @@ tr:nth-child(even) {
     font-size: 0.8rem;
   }
 }
-
