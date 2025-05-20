@@ -1,4 +1,4 @@
-
+/* Base Styles */
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #e9f6fc;
@@ -85,6 +85,29 @@ body {
   font-family: 'Fredoka', sans-serif;
 }
 
+/* Table Styles */
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fdfaff;
+}
+
+th, td {
+  border: 2px solid #9ecfff;
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #d0ebff;
+  font-size: 18px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2faff;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
   #nav a {
@@ -105,6 +128,22 @@ body {
 
   .intro p {
     font-size: 1em;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  th, td {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  th {
+    font-size: 16px;
   }
 }
 
