@@ -1,4 +1,4 @@
-/* Base Styles */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #e9f6fc;
@@ -85,7 +85,7 @@ body {
   font-family: 'Fredoka', sans-serif;
 }
 
-/* Table Styles */
+
 table {
   width: 90%;
   margin: 20px auto;
@@ -108,7 +108,6 @@ tr:nth-child(even) {
   background-color: #f2faff;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   #nav a {
     display: block;
